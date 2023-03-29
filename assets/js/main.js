@@ -1,8 +1,8 @@
 
 
-/* check if email is in the list */
+/* start: check if email is in the list */
 function controlloEmail(){
-    /* read the email from the input */
+    
     let email = document.getElementById('inputEmail').value;
 
     let arrayEmail = [
@@ -25,7 +25,16 @@ function controlloEmail(){
     } else{
         document.writeln('Email scritta non è presente')
     }
-    
+
+    /* start: soluzione con .includes */
+    /* if( arrayEmail.includes(email) ){
+        document.writeln('Email scritta è presente')
+    } else{
+        document.writeln('Email scritta non è presente')
+    } */
+    /* end: soluzione con .includes */
+
 }
+/* end: check if email is in the list */
 
 
