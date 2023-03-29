@@ -1,6 +1,6 @@
 
 
-
+/* check if email is in the list */
 function controlloEmail(){
     /* read the email from the input */
     let email = document.getElementById('inputEmail').value;
@@ -25,8 +25,7 @@ function controlloEmail(){
     } else{
         document.writeln('Email scritta non è presente')
     }
-
-    console.log(email)
+    
 }
 
 
